@@ -10,8 +10,8 @@
       slug: 'cabins',
       name: 'Cabins',
       countLabel: '4 Hideaways',
-      image: 'images/cat-cabins.webp',
-      fallback: 'images/cat-cabins.jpg',
+      image: 'assets/images/cat-cabins.webp',
+      fallback: 'assets/images/cat-cabins.jpg',
       alt: 'Handcrafted pitched-roof cedar cabin glowing warmly in a golden-hour pine clearing',
       subtitle: 'Timber hearths & alpine hush'
     },
@@ -19,8 +19,8 @@
       slug: 'treehouses',
       name: 'Treehouses',
       countLabel: 'Canopy Suites',
-      image: 'images/cat-treehouses.webp',
-      fallback: 'images/cat-treehouses.jpg',
+      image: 'assets/images/cat-treehouses.webp',
+      fallback: 'assets/images/cat-treehouses.jpg',
       alt: 'Elevated cedar treehouse wrapped around an old-growth forest trunk with warm string lights at sunset',
       subtitle: 'Suspended in emerald crowns'
     },
@@ -28,8 +28,8 @@
       slug: 'domes',
       name: 'Domes',
       countLabel: 'Stargazer Pods',
-      image: 'images/cat-domes.webp',
-      fallback: 'images/cat-domes.jpg',
+      image: 'assets/images/cat-domes.webp',
+      fallback: 'assets/images/cat-domes.jpg',
       alt: 'Geodesic glass stargazing dome perched on a ridge glowing amber at dusk',
       subtitle: '360° skies & desert silence'
     },
@@ -37,8 +37,8 @@
       slug: 'tiny-homes',
       name: 'Tiny Homes',
       countLabel: 'Micro Architecture',
-      image: 'images/cat-tiny-homes.webp',
-      fallback: 'images/cat-tiny-homes.jpg',
+      image: 'assets/images/cat-tiny-homes.webp',
+      fallback: 'assets/images/cat-tiny-homes.jpg',
       alt: 'Architectural charred-cedar tiny home with panoramic skylight in a golden mountain meadow',
       subtitle: 'Off-grid craft, zero excess'
     },
@@ -46,8 +46,8 @@
       slug: 'floating',
       name: 'Floating Stays',
       countLabel: 'Water Sanctuaries',
-      image: 'images/cat-floating.webp',
-      fallback: 'images/cat-floating.jpg',
+      image: 'assets/images/cat-floating.webp',
+      fallback: 'assets/images/cat-floating.jpg',
       alt: 'Boutique floating timber villa moored on calm emerald water at golden sunrise',
       subtitle: 'Drift to sleep on mirror lakes'
     },
@@ -55,8 +55,8 @@
       slug: 'desert',
       name: 'Desert Hideaways',
       countLabel: 'Dune Pavilions',
-      image: 'images/cat-desert.webp',
-      fallback: 'images/cat-desert.jpg',
+      image: 'assets/images/cat-desert.webp',
+      fallback: 'assets/images/cat-desert.jpg',
       alt: 'Luxury sandstone and canvas pavilion tucked among sculpted golden sand dunes at sunset',
       subtitle: 'Lantern-lit horizons & dunes'
     }
@@ -69,8 +69,8 @@
       waypoint: '31.63° N · 77.34° E',
       staysCount: '3 Stays',
       subtitle: 'Deodar ridges, snow-fed streams & woodsmoke',
-      image: 'images/destination-01.webp',
-      fallback: 'images/destination-01.jpg',
+      image: 'assets/images/destination-01.webp',
+      fallback: 'assets/images/destination-01.jpg',
       alt: 'Layered Himalayan cedar foothills and sunlit snow peaks bathed in warm golden-hour mist'
     },
     {
@@ -79,8 +79,8 @@
       waypoint: '11.68° N · 76.13° E',
       staysCount: '4 Stays',
       subtitle: 'Cloud forests, tea slopes & tranquil lagoons',
-      image: 'images/destination-02.webp',
-      fallback: 'images/destination-02.jpg',
+      image: 'assets/images/destination-02.webp',
+      fallback: 'assets/images/destination-02.jpg',
       alt: 'Emerald rainforest canopy and misty Western Ghats hills illuminated by golden sunrise'
     },
     {
@@ -89,8 +89,8 @@
       waypoint: '26.91° N · 70.90° E',
       staysCount: '2 Stays',
       subtitle: 'Sculpted amber sands & Bortle-2 starfields',
-      image: 'images/destination-03.webp',
-      fallback: 'images/destination-03.jpg',
+      image: 'assets/images/destination-03.webp',
+      fallback: 'assets/images/destination-03.jpg',
       alt: 'Sweeping wind-carved Thar desert dunes casting warm golden shadows at sunset'
     },
     {
@@ -99,8 +99,8 @@
       waypoint: '15.04° N · 73.98° E',
       staysCount: '2 Stays',
       subtitle: 'Laterite headlands, vineyards & quiet coves',
-      image: 'images/destination-04.webp',
-      fallback: 'images/destination-04.jpg',
+      image: 'assets/images/destination-04.webp',
+      fallback: 'assets/images/destination-04.jpg',
       alt: 'Secluded golden cove and red laterite headland along the Konkan coast reflecting amber dusk skies'
     },
     {
@@ -109,8 +109,8 @@
       waypoint: '32.24° N · 78.03° E',
       staysCount: '1 Stay',
       subtitle: 'Trans-Himalayan silence at 3,800 metres',
-      image: 'images/destination-05.webp',
-      fallback: 'images/destination-05.jpg',
+      image: 'assets/images/destination-05.webp',
+      fallback: 'assets/images/destination-05.jpg',
       alt: 'High-altitude snow-crowned Spiti Valley mountains glowing in golden alpenglow twilight'
     }
   ];
@@ -122,8 +122,8 @@
       guest: 'Aarav & Meera K.',
       stayTitle: 'Pine Hollow A-Frame',
       date: 'October Retreat',
-      image: 'images/review-guest-01.webp',
-      fallback: 'images/review-guest-01.jpg',
+      image: 'assets/images/review-guest-01.webp',
+      fallback: 'assets/images/review-guest-01.jpg',
       alt: 'Speckled stoneware mug of steaming coffee resting on a weathered cedar cabin rail overlooking misty morning pines'
     },
     {
@@ -132,8 +132,8 @@
       guest: 'Rohan Deshmukh',
       stayTitle: 'Moss & Stone Cottage',
       date: 'Monsoon Postscript',
-      image: 'images/review-guest-02.webp',
-      fallback: 'images/review-guest-02.jpg',
+      image: 'assets/images/review-guest-02.webp',
+      fallback: 'assets/images/review-guest-02.jpg',
       alt: 'Worn leather hiking boots and herringbone wool blanket beside an open timber cabin doorway facing sunlit moss'
     },
     {
@@ -142,8 +142,8 @@
       guest: 'Nandini S.',
       stayTitle: 'Stargazer Glass Dome',
       date: 'New Moon Weekend',
-      image: 'images/review-guest-03.webp',
-      fallback: 'images/review-guest-03.jpg',
+      image: 'assets/images/review-guest-03.webp',
+      fallback: 'assets/images/review-guest-03.jpg',
       alt: 'Open leather travel journal, brass fountain pen and vintage compass on warm linen cabin bedding in golden light'
     },
     {
@@ -152,8 +152,8 @@
       guest: 'Vikram & Tara Rao',
       stayTitle: 'Lotus Float House',
       date: 'Anniversary Escape',
-      image: 'images/review-guest-04.webp',
-      fallback: 'images/review-guest-04.jpg',
+      image: 'assets/images/review-guest-04.webp',
+      fallback: 'assets/images/review-guest-04.jpg',
       alt: 'Woven cotton hammock strung between tall pines on a wooden deck overlooking a golden-lit lake at sunset'
     }
   ];
@@ -187,31 +187,31 @@
       bestSeason: 'Oct – May',
       elevation: '2,180 m',
       amenities: ['Hot tub', 'Fireplace', 'Wi-Fi', 'Pet-friendly', 'Off-grid'],
-      cover: 'images/stay-01-cover.webp',
-      coverFallback: 'images/stay-01-cover.jpg',
+      cover: 'assets/images/stay-01-cover.webp',
+      coverFallback: 'assets/images/stay-01-cover.jpg',
       coverAlt: 'Glass-and-cedar Pine Hollow A-Frame cabin perched on a terraced Himalayan hillside at golden hour',
       gallery: [
         {
-          src: 'images/stay-01-g1.webp',
-          fallback: 'images/stay-01-g1.jpg',
+          src: 'assets/images/stay-01-g1.webp',
+          fallback: 'assets/images/stay-01-g1.jpg',
           alt: 'Pine Hollow A-Frame living area with wood-burning stove, leather chair and mountain-facing glass gable',
           caption: 'Double-height timber living space warmed by a Norwegian cast-iron stove'
         },
         {
-          src: 'images/stay-01-g2.webp',
-          fallback: 'images/stay-01-g2.jpg',
+          src: 'assets/images/stay-01-g2.webp',
+          fallback: 'assets/images/stay-01-g2.jpg',
           alt: 'Cosy loft bedroom under pitched pine rafters overlooking misty Himalayan cedars',
           caption: 'Stargazing loft suite dressed in heavyweight organic flax linen'
         },
         {
-          src: 'images/stay-01-g3.webp',
-          fallback: 'images/stay-01-g3.jpg',
+          src: 'assets/images/stay-01-g3.webp',
+          fallback: 'assets/images/stay-01-g3.jpg',
           alt: 'Steaming outdoor cedar soaking tub on private wooden deck overlooking mountain valleys at sunset',
           caption: 'Wood-fired red-cedar soaking tub on the cantilevered west deck'
         },
         {
-          src: 'images/stay-01-g4.webp',
-          fallback: 'images/stay-01-g4.jpg',
+          src: 'assets/images/stay-01-g4.webp',
+          fallback: 'assets/images/stay-01-g4.jpg',
           alt: 'Golden-hour Himalayan ridge panorama seen from the wooden cabin balcony rail',
           caption: 'Uninterrupted dusk views across three tiers of Himalayan foothills'
         }
@@ -278,31 +278,31 @@
       bestSeason: 'Sep – Mar',
       elevation: '1,120 m',
       amenities: ['Wi-Fi', 'Off-grid', 'Lake view'],
-      cover: 'images/stay-02-cover.webp',
-      coverFallback: 'images/stay-02-cover.jpg',
+      cover: 'assets/images/stay-02-cover.webp',
+      coverFallback: 'assets/images/stay-02-cover.jpg',
       coverAlt: 'Elevated hardwood Cedar Crown Treehouse nestled high among misty emerald trees in Kerala at golden light',
       gallery: [
         {
-          src: 'images/stay-02-g1.webp',
-          fallback: 'images/stay-02-g1.jpg',
+          src: 'assets/images/stay-02-g1.webp',
+          fallback: 'assets/images/stay-02-g1.jpg',
           alt: 'Open-air rattan and teak living lounge inside Kerala treehouse surrounded by green canopy',
           caption: 'Wrap-around canopy lounge crafted from sustainably felled Malabar teak and cane'
         },
         {
-          src: 'images/stay-02-g2.webp',
-          fallback: 'images/stay-02-g2.jpg',
+          src: 'assets/images/stay-02-g2.webp',
+          fallback: 'assets/images/stay-02-g2.jpg',
           alt: 'Four-poster teak canopy bed draped in sheer organic cotton looking into dense rainforest',
           caption: 'Wake at eye-level with Malabar whistling thrushes and drifting morning mist'
         },
         {
-          src: 'images/stay-02-g3.webp',
-          fallback: 'images/stay-02-g3.jpg',
+          src: 'assets/images/stay-02-g3.webp',
+          fallback: 'assets/images/stay-02-g3.jpg',
           alt: 'River-stone and brushed copper rain shower bathroom inside treehouse opening to tropical ferns',
           caption: 'Hand-carved river-boulder basin and copper rain shower open to tree ferns'
         },
         {
-          src: 'images/stay-02-g4.webp',
-          fallback: 'images/stay-02-g4.jpg',
+          src: 'assets/images/stay-02-g4.webp',
+          fallback: 'assets/images/stay-02-g4.jpg',
           alt: 'Sunrise view from treetop wooden balcony over Western Ghats rainforest canopy in Kerala',
           caption: 'First golden light breaking across thirty-five acres of private biodiversity reserve'
         }
@@ -369,31 +369,31 @@
       bestSeason: 'Oct – Mar',
       elevation: '310 m',
       amenities: ['Hot tub', 'Wi-Fi', 'Off-grid', 'EV charger'],
-      cover: 'images/stay-03-cover.webp',
-      coverFallback: 'images/stay-03-cover.jpg',
+      cover: 'assets/images/stay-03-cover.webp',
+      coverFallback: 'assets/images/stay-03-cover.jpg',
       coverAlt: 'Luxury geodesic Stargazer Glass Dome glowing warm amber on a Rajasthan sandstone terrace at sunset',
       gallery: [
         {
-          src: 'images/stay-03-g1.webp',
-          fallback: 'images/stay-03-g1.jpg',
+          src: 'assets/images/stay-03-g1.webp',
+          fallback: 'assets/images/stay-03-g1.jpg',
           alt: 'Curved panoramic glass lounge inside desert dome with camel leather chairs and brass lanterns',
           caption: 'Hand-knotted Barmer dhurries and saddle-leather lounge facing endless desert scrub'
         },
         {
-          src: 'images/stay-03-g2.webp',
-          fallback: 'images/stay-03-g2.jpg',
+          src: 'assets/images/stay-03-g2.webp',
+          fallback: 'assets/images/stay-03-g2.jpg',
           alt: 'King bed beneath transparent geodesic skylight panels with twilight desert sky above',
           caption: 'Motorised blackout-optional zenith skylight engineered for naked-eye stargazing'
         },
         {
-          src: 'images/stay-03-g3.webp',
-          fallback: 'images/stay-03-g3.jpg',
+          src: 'assets/images/stay-03-g3.webp',
+          fallback: 'assets/images/stay-03-g3.jpg',
           alt: 'Private sunken Jodhpur sandstone plunge tub on a lantern-lit desert deck at dusk',
           caption: 'Heated Jodhpur pink-sandstone plunge pool carved into the private terrace'
         },
         {
-          src: 'images/stay-03-g4.webp',
-          fallback: 'images/stay-03-g4.jpg',
+          src: 'assets/images/stay-03-g4.webp',
+          fallback: 'assets/images/stay-03-g4.jpg',
           alt: 'Golden crimson sunset horizon across quiet Rajasthan desert plains from dome terrace',
           caption: 'Sixty-kilometre unobstructed western horizon—zero neighbouring structures in sight'
         }
@@ -460,31 +460,31 @@
       bestSeason: 'Sep – May',
       elevation: '1,940 m',
       amenities: ['Fireplace', 'Wi-Fi', 'Pet-friendly', 'Off-grid'],
-      cover: 'images/stay-04-cover.webp',
-      coverFallback: 'images/stay-04-cover.jpg',
+      cover: 'assets/images/stay-04-cover.webp',
+      coverFallback: 'assets/images/stay-04-cover.jpg',
       coverAlt: 'Minimalist charred-wood Mistline Tiny House perched above misty emerald tea plantations in Munnar',
       gallery: [
         {
-          src: 'images/stay-04-g1.webp',
-          fallback: 'images/stay-04-g1.jpg',
+          src: 'assets/images/stay-04-g1.webp',
+          fallback: 'assets/images/stay-04-g1.jpg',
           alt: 'Built-in birchwood daybed beside picture window framing Munnar green tea slopes',
           caption: 'Custom birchwood reading alcove framing undulating high-grown tea gardens'
         },
         {
-          src: 'images/stay-04-g2.webp',
-          fallback: 'images/stay-04-g2.jpg',
+          src: 'assets/images/stay-04-g2.webp',
+          fallback: 'assets/images/stay-04-g2.jpg',
           alt: 'Elevated sleeping loft nook with skylight and panoramic window over misty hills',
           caption: 'Sky-lit mezzanine bed where silver clouds drift straight past your pillow'
         },
         {
-          src: 'images/stay-04-g3.webp',
-          fallback: 'images/stay-04-g3.jpg',
+          src: 'assets/images/stay-04-g3.webp',
+          fallback: 'assets/images/stay-04-g3.jpg',
           alt: 'Compact solid-teak tiny home kitchenette with matte black kettle and stoneware mugs',
           caption: 'Precision joinery pantry stocked with single-estate white and orthodox loose-leaf teas'
         },
         {
-          src: 'images/stay-04-g4.webp',
-          fallback: 'images/stay-04-g4.jpg',
+          src: 'assets/images/stay-04-g4.webp',
+          fallback: 'assets/images/stay-04-g4.jpg',
           alt: 'Small cedar deck with two timber chairs overlooking golden mist over Munnar tea hills',
           caption: 'Private east-facing cedar deck engineered for unforgettable cloud-sea sunrises'
         }
@@ -551,31 +551,31 @@
       bestSeason: 'Oct – Mar',
       elevation: 'Sea Level',
       amenities: ['Wi-Fi', 'Lake view', 'Off-grid'],
-      cover: 'images/stay-05-cover.webp',
-      coverFallback: 'images/stay-05-cover.jpg',
+      cover: 'assets/images/stay-05-cover.webp',
+      coverFallback: 'assets/images/stay-05-cover.jpg',
       coverAlt: 'Sustainable floating timber Lotus Float House anchored on a golden backwater lake ringed by palms',
       gallery: [
         {
-          src: 'images/stay-05-g1.webp',
-          fallback: 'images/stay-05-g1.jpg',
+          src: 'assets/images/stay-05-g1.webp',
+          fallback: 'assets/images/stay-05-g1.jpg',
           alt: 'Water-level living room inside floating villa with wide sliding doors open to calm lake ripples',
           caption: 'Slide back three-panel teak doors to let gentle lagoon breezes cross the lounge'
         },
         {
-          src: 'images/stay-05-g2.webp',
-          fallback: 'images/stay-05-g2.jpg',
+          src: 'assets/images/stay-05-g2.webp',
+          fallback: 'assets/images/stay-05-g2.jpg',
           alt: 'Floating bedroom suite facing floor-to-ceiling glass right at golden backwater level',
           caption: 'Waterline king bed—watch pink waterlilies unfurl inches from the glass at dawn'
         },
         {
-          src: 'images/stay-05-g3.webp',
-          fallback: 'images/stay-05-g3.jpg',
+          src: 'assets/images/stay-05-g3.webp',
+          fallback: 'assets/images/stay-05-g3.jpg',
           alt: 'Carved stone soaking tub beside wooden louvered shutters overlooking lotus lake at twilight',
           caption: 'Hand-chiselled granite soaking tub looking onto a protected kingfisher reedbed'
         },
         {
-          src: 'images/stay-05-g4.webp',
-          fallback: 'images/stay-05-g4.jpg',
+          src: 'assets/images/stay-05-g4.webp',
+          fallback: 'assets/images/stay-05-g4.jpg',
           alt: 'Bow deck view of mirror-still backwaters and silhouetted palms under warm amber sunset sky',
           caption: 'Private bow deck with two cedar kayaks moored for silent dawn paddles'
         }
@@ -642,31 +642,31 @@
       bestSeason: 'Nov – Feb',
       elevation: '225 m',
       amenities: ['Fireplace', 'Pet-friendly', 'Off-grid'],
-      cover: 'images/stay-06-cover.webp',
-      coverFallback: 'images/stay-06-cover.jpg',
+      cover: 'assets/images/stay-06-cover.webp',
+      coverFallback: 'assets/images/stay-06-cover.jpg',
       coverAlt: 'Luxury canvas safari pavilion Dune Whisper Camp on a raised teak platform among golden Thar dunes at sunset',
       gallery: [
         {
-          src: 'images/stay-06-g1.webp',
-          fallback: 'images/stay-06-g1.jpg',
+          src: 'assets/images/stay-06-g1.webp',
+          fallback: 'assets/images/stay-06-g1.jpg',
           alt: 'Tented lounge interior with natural draped canvas, teak campaign chairs and desert kilim rugs',
           caption: 'Double-layered breathable expedition canvas furnished with heirloom Marwar kilims'
         },
         {
-          src: 'images/stay-06-g2.webp',
-          fallback: 'images/stay-06-g2.jpg',
+          src: 'assets/images/stay-06-g2.webp',
+          fallback: 'assets/images/stay-06-g2.jpg',
           alt: 'King bed inside Thar desert tent pavilion illuminated by warm wrought-iron lanterns',
           caption: 'Hand-spun organic cotton sheets and camel-wool winter throws'
         },
         {
-          src: 'images/stay-06-g3.webp',
-          fallback: 'images/stay-06-g3.jpg',
+          src: 'assets/images/stay-06-g3.webp',
+          fallback: 'assets/images/stay-06-g3.jpg',
           alt: 'Luxury en-suite desert bathroom with hammered copper sink, sandstone vanity and open-sky shower',
           caption: 'Open-sky sandstone shower court heated by desert solar thermal tubes'
         },
         {
-          src: 'images/stay-06-g4.webp',
-          fallback: 'images/stay-06-g4.jpg',
+          src: 'assets/images/stay-06-g4.webp',
+          fallback: 'assets/images/stay-06-g4.jpg',
           alt: 'Wind-sculpted golden Thar sand dunes seen from private timber verandah with glowing hurricane lamps',
           caption: 'Watch wind erase yesterday’s footprints across your private dune amphitheatre'
         }
@@ -733,31 +733,31 @@
       bestSeason: 'Nov – Apr',
       elevation: '2,640 m',
       amenities: ['Fireplace', 'Sauna', 'Wi-Fi', 'EV charger', 'Pet-friendly'],
-      cover: 'images/stay-07-cover.webp',
-      coverFallback: 'images/stay-07-cover.jpg',
+      cover: 'assets/images/stay-07-cover.webp',
+      coverFallback: 'assets/images/stay-07-cover.jpg',
       coverAlt: 'Snow-dusted handcrafted cedar Ember Ridge Log Cabin among spruce trees in Himachal at golden dusk',
       gallery: [
         {
-          src: 'images/stay-07-g1.webp',
-          fallback: 'images/stay-07-g1.jpg',
+          src: 'assets/images/stay-07-g1.webp',
+          fallback: 'assets/images/stay-07-g1.jpg',
           alt: 'Log cabin living room with river-stone fireplace, shearling throws and snowy pine view',
           caption: 'Hand-built Beas river-stone hearth stocked with seasoned oak and applewood'
         },
         {
-          src: 'images/stay-07-g2.webp',
-          fallback: 'images/stay-07-g2.jpg',
+          src: 'assets/images/stay-07-g2.webp',
+          fallback: 'assets/images/stay-07-g2.jpg',
           alt: 'Master log bedroom with chunky wool knit blanket and frosted window facing snowy Himalayan peaks',
           caption: 'Heated walnut floors and goose-down duvets facing the Pir Panjal massif'
         },
         {
-          src: 'images/stay-07-g3.webp',
-          fallback: 'images/stay-07-g3.jpg',
+          src: 'assets/images/stay-07-g3.webp',
+          fallback: 'assets/images/stay-07-g3.jpg',
           alt: 'Private cedar sauna with round panoramic glass window overlooking snow-laden pines at twilight',
           caption: 'Finnish-stove cedar barrel sauna with panoramic snow-forest window'
         },
         {
-          src: 'images/stay-07-g4.webp',
-          fallback: 'images/stay-07-g4.jpg',
+          src: 'assets/images/stay-07-g4.webp',
+          fallback: 'assets/images/stay-07-g4.jpg',
           alt: 'Golden alpenglow across snow-covered Himachal ridges seen from timber log cabin porch',
           caption: 'Evening alpenglow painting 5,000-metre peaks straight from your covered porch'
         }
@@ -824,31 +824,31 @@
       bestSeason: 'Oct – Apr',
       elevation: '1,040 m',
       amenities: ['Fireplace', 'Wi-Fi', 'Pet-friendly', 'EV charger'],
-      cover: 'images/stay-08-cover.webp',
-      coverFallback: 'images/stay-08-cover.jpg',
+      cover: 'assets/images/stay-08-cover.webp',
+      coverFallback: 'assets/images/stay-08-cover.jpg',
       coverAlt: 'Heritage granite and red-tile Moss & Stone Cottage surrounded by misty Coorg coffee plants at golden hour',
       gallery: [
         {
-          src: 'images/stay-08-g1.webp',
-          fallback: 'images/stay-08-g1.jpg',
+          src: 'assets/images/stay-08-g1.webp',
+          fallback: 'assets/images/stay-08-g1.jpg',
           alt: 'Exposed stone cottage living room with terracotta tiles, vintage teak chairs and hearth',
           caption: 'Hand-laid Athangudi & terracotta floors paired with restored Kodava rosewood heirlooms'
         },
         {
-          src: 'images/stay-08-g2.webp',
-          fallback: 'images/stay-08-g2.jpg',
+          src: 'assets/images/stay-08-g2.webp',
+          fallback: 'assets/images/stay-08-g2.jpg',
           alt: 'Cottage bedroom with dark teak beams, moss-green linen bed and tall windows to coffee estate',
           caption: 'Pitched Mangalore-tile ceilings and tall casement windows opening onto silver-oak shade'
         },
         {
-          src: 'images/stay-08-g3.webp',
-          fallback: 'images/stay-08-g3.jpg',
+          src: 'assets/images/stay-08-g3.webp',
+          fallback: 'assets/images/stay-08-g3.jpg',
           alt: 'Walled courtyard bathroom with deep hammered copper soaking tub and lush tropical ferns',
           caption: 'Private mossy stone courtyard bath with deep hand-beaten copper soaking tub'
         },
         {
-          src: 'images/stay-08-g4.webp',
-          fallback: 'images/stay-08-g4.jpg',
+          src: 'assets/images/stay-08-g4.webp',
+          fallback: 'assets/images/stay-08-g4.jpg',
           alt: 'Deep timber verandah with glowing brass lamp overlooking misty Coorg coffee hills at dusk',
           caption: 'Read through dusk under the deep verandah eaves while estate mist rolls in'
         }
@@ -915,31 +915,31 @@
       bestSeason: 'Oct – Mar',
       elevation: '1,310 m',
       amenities: ['Hot tub', 'Wi-Fi', 'Lake view', 'Off-grid'],
-      cover: 'images/stay-09-cover.webp',
-      coverFallback: 'images/stay-09-cover.jpg',
+      cover: 'assets/images/stay-09-cover.webp',
+      coverFallback: 'assets/images/stay-09-cover.jpg',
       coverAlt: 'Cantilevered modern cedar and glass Skyloft Cliff Pod perched on a rocky Western Ghats cliff edge at sunset',
       gallery: [
         {
-          src: 'images/stay-09-g1.webp',
-          fallback: 'images/stay-09-g1.jpg',
+          src: 'assets/images/stay-09-g1.webp',
+          fallback: 'assets/images/stay-09-g1.jpg',
           alt: 'Curved warm timber cliff pod lounge with 180-degree wrap-around glass floating above green gorge',
           caption: 'Structural steel-core cantilever wrapped in acoustic Western red cedar'
         },
         {
-          src: 'images/stay-09-g2.webp',
-          fallback: 'images/stay-09-g2.jpg',
+          src: 'assets/images/stay-09-g2.webp',
+          fallback: 'assets/images/stay-09-g2.jpg',
           alt: 'Platform bed inside cantilevered pod facing dramatic misty escarpments and golden sunset clouds',
           caption: 'Horizon-aligned king platform bed suspended above swirling canyon clouds'
         },
         {
-          src: 'images/stay-09-g3.webp',
-          fallback: 'images/stay-09-g3.jpg',
+          src: 'assets/images/stay-09-g3.webp',
+          fallback: 'assets/images/stay-09-g3.jpg',
           alt: 'Dark slate spa bath and cantilevered outdoor soaking tub overlooking deep misty valley at twilight',
           caption: 'Recessed basalt deck soaking tub looking down onto winding Koyna backwaters'
         },
         {
-          src: 'images/stay-09-g4.webp',
-          fallback: 'images/stay-09-g4.jpg',
+          src: 'assets/images/stay-09-g4.webp',
+          fallback: 'assets/images/stay-09-g4.jpg',
           alt: 'Panoramic view from glass-and-teak cliff deck across Western Ghats cliffs and distant waterfall at sunset',
           caption: 'Watch kestrels ride thermals below eye-level from your private cantilevered deck'
         }
@@ -1006,31 +1006,31 @@
       bestSeason: 'Oct – Mar',
       elevation: '640 m',
       amenities: ['Fireplace', 'Wi-Fi', 'Pet-friendly', 'EV charger'],
-      cover: 'images/stay-10-cover.webp',
-      coverFallback: 'images/stay-10-cover.jpg',
+      cover: 'assets/images/stay-10-cover.webp',
+      coverFallback: 'assets/images/stay-10-cover.jpg',
       coverAlt: 'Converted weathered-timber Amber Orchard Barn Stay surrounded by sunlit grapevines at golden hour',
       gallery: [
         {
-          src: 'images/stay-10-g1.webp',
-          fallback: 'images/stay-10-g1.jpg',
+          src: 'assets/images/stay-10-g1.webp',
+          fallback: 'assets/images/stay-10-g1.jpg',
           alt: 'Double-height barn living room with reclaimed oak trusses, steel-grid windows and linen sofa',
           caption: 'Six-metre reclaimed teak-and-oak trusses flooded with late-afternoon vineyard gold'
         },
         {
-          src: 'images/stay-10-g2.webp',
-          fallback: 'images/stay-10-g2.jpg',
+          src: 'assets/images/stay-10-g2.webp',
+          fallback: 'assets/images/stay-10-g2.jpg',
           alt: 'Mezzanine barn bedroom with terracotta and flax linen bed overlooking sunlit vineyard rows',
           caption: 'Lofted primary bedroom dressed in hand-dyed madder-terracotta linen'
         },
         {
-          src: 'images/stay-10-g3.webp',
-          fallback: 'images/stay-10-g3.jpg',
+          src: 'assets/images/stay-10-g3.webp',
+          fallback: 'assets/images/stay-10-g3.jpg',
           alt: 'Farmhouse gourmet kitchen with butcher-block island, copper pans and handmade ceramics',
           caption: 'Chef’s farmhouse kitchen with Mauviel copperware and organic kitchen-garden herbs'
         },
         {
-          src: 'images/stay-10-g4.webp',
-          fallback: 'images/stay-10-g4.jpg',
+          src: 'assets/images/stay-10-g4.webp',
+          fallback: 'assets/images/stay-10-g4.jpg',
           alt: 'Vine-draped pergola dining terrace beside converted barn overlooking golden vineyards at sunset',
           caption: 'Long timber harvest table beneath a bougainvillea and grapevine pergola'
         }
@@ -1097,31 +1097,31 @@
       bestSeason: 'Oct – Apr',
       elevation: '14 m',
       amenities: ['Wi-Fi', 'Pet-friendly', 'Lake view'],
-      cover: 'images/stay-11-cover.webp',
-      coverFallback: 'images/stay-11-cover.jpg',
+      cover: 'assets/images/stay-11-cover.webp',
+      coverFallback: 'assets/images/stay-11-cover.jpg',
       coverAlt: 'Elevated driftwood and palm-thatch Tideglass Beach Hut tucked in casuarina dunes above a golden Goa cove at sunset',
       gallery: [
         {
-          src: 'images/stay-11-g1.webp',
-          fallback: 'images/stay-11-g1.jpg',
+          src: 'assets/images/stay-11-g1.webp',
+          fallback: 'assets/images/stay-11-g1.jpg',
           alt: 'Lime-plaster coastal hut lounge with reclaimed teak doors wide open to golden ocean horizon',
           caption: 'Breathable hand-trowelled shell-lime walls and reclaimed boat-teak shutters'
         },
         {
-          src: 'images/stay-11-g2.webp',
-          fallback: 'images/stay-11-g2.jpg',
+          src: 'assets/images/stay-11-g2.webp',
+          fallback: 'assets/images/stay-11-g2.jpg',
           alt: 'Coastal cabin bedroom with billowing sheer linen canopy bed and open wooden shutters facing surf',
           caption: 'Fall asleep to the low rhythmic hush of Arabian Sea swells below the dune'
         },
         {
-          src: 'images/stay-11-g3.webp',
-          fallback: 'images/stay-11-g3.jpg',
+          src: 'assets/images/stay-11-g3.webp',
+          fallback: 'assets/images/stay-11-g3.jpg',
           alt: 'Open-air coastal garden shower and warm terrazzo soaking tub framed by palms and laterite stone',
           caption: 'Private walled palm-court bath with warm terrazzo soaking basin and brass rain shower'
         },
         {
-          src: 'images/stay-11-g4.webp',
-          fallback: 'images/stay-11-g4.jpg',
+          src: 'assets/images/stay-11-g4.webp',
+          fallback: 'assets/images/stay-11-g4.jpg',
           alt: 'Private dune deck view down onto untouched crescent beach and golden-hour ocean surf at sunset',
           caption: 'Private laterite steps wind straight down to a quiet freshwater lagoon & sea cove'
         }
@@ -1188,31 +1188,31 @@
       bestSeason: 'May – Nov',
       elevation: '3,820 m',
       amenities: ['Fireplace', 'Sauna', 'Off-grid'],
-      cover: 'images/stay-12-cover.webp',
-      coverFallback: 'images/stay-12-cover.jpg',
+      cover: 'assets/images/stay-12-cover.webp',
+      coverFallback: 'assets/images/stay-12-cover.jpg',
       coverAlt: 'Insulated dome-shaped natural stone and glass Snowpeak Igloo Lodge against snowy Spiti peaks at twilight',
       gallery: [
         {
-          src: 'images/stay-12-g1.webp',
-          fallback: 'images/stay-12-g1.jpg',
+          src: 'assets/images/stay-12-g1.webp',
+          fallback: 'assets/images/stay-12-g1.jpg',
           alt: 'Curved warm interior of high-altitude igloo lodge with Tibetan rugs, glowing pellet stove and snow view',
           caption: 'Passive-solar thermal stone shell staying 23°C indoors even when outside drops below freezing'
         },
         {
-          src: 'images/stay-12-g2.webp',
-          fallback: 'images/stay-12-g2.jpg',
+          src: 'assets/images/stay-12-g2.webp',
+          fallback: 'assets/images/stay-12-g2.jpg',
           alt: 'Insulated dome bedroom with yak-wool throw and arched window framing starlit snowy Spiti peaks',
           caption: 'Hand-loomed Spitian yak-wool throws and triple-glazed arched peak window'
         },
         {
-          src: 'images/stay-12-g3.webp',
-          fallback: 'images/stay-12-g3.jpg',
+          src: 'assets/images/stay-12-g3.webp',
+          fallback: 'assets/images/stay-12-g3.jpg',
           alt: 'Heated dark slate bathroom with deep cedar soaking tub and steaming copper faucet inside mountain lodge',
           caption: 'Freeze-proof solar-glycol heated slate bath and deep cedar soaking tub'
         },
         {
-          src: 'images/stay-12-g4.webp',
-          fallback: 'images/stay-12-g4.jpg',
+          src: 'assets/images/stay-12-g4.webp',
+          fallback: 'assets/images/stay-12-g4.jpg',
           alt: 'High-altitude panorama of Spiti Valley sculpted snow ridges bathed in golden alpenglow under indigo sky',
           caption: '6,000-metre Kanamo & Chau Chau Kang Nilda peaks glowing right outside your threshold'
         }

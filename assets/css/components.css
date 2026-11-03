@@ -395,15 +395,19 @@
 }
 
 .section-dark .btn-outline,
-.section-dusk .btn-outline {
+.section-dusk .btn-outline,
+.editorial-overlap-card .btn-outline {
   color: var(--sand);
-  border-color: rgba(201, 169, 138, 0.48);
+  border-color: rgba(244, 236, 221, 0.45);
 }
 
 .section-dark .btn-outline:hover,
-.section-dusk .btn-outline:hover {
+.section-dusk .btn-outline:hover,
+.editorial-overlap-card .btn-outline:hover,
+.editorial-overlap-card .btn-outline:focus-visible {
   border-color: var(--amber);
-  background: rgba(242, 178, 92, 0.12);
+  background: rgba(242, 178, 92, 0.14);
+  color: var(--amber);
 }
 
 .btn-surprise {
