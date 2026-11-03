@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="StayNomad Emblem">
+  <rect width="64" height="64" rx="16" fill="#0E2420"/>
+  <circle cx="32" cy="32" r="24" fill="none" stroke="#C9A98A" stroke-width="1.2" stroke-dasharray="3 3" opacity="0.45"/>
+  <!-- A-Frame Roof / Tent Peak -->
+  <path d="M14 48 L32 14 L50 48" fill="none" stroke="#E2733A" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M21 48 L32 27 L43 48 Z" fill="#17403A" stroke="#E2733A" stroke-width="1.8" stroke-linejoin="round"/>
+  <!-- Crossed Compass Needle -->
+  <path d="M18 18 L46 46" stroke="#C9A98A" stroke-width="1.5" stroke-linecap="round" opacity="0.7"/>
+  <polygon points="45,19 34,34 30,30" fill="#F2B25C"/>
+  <polygon points="19,45 30,30 34,34" fill="#E2733A"/>
+  <circle cx="32" cy="32" r="3" fill="#F4ECDD"/>
+  <circle cx="32" cy="32" r="1.3" fill="#0E2420"/>
+</svg>
+

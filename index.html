@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>StayNomad — Sleep Somewhere Unforgettable | Wild Cabins, Treehouses &amp; Domes</title>
+  <meta name="description" content="StayNomad curates architect-designed cabins, canopy treehouses, geodesic stargazing domes, tiny homes, floating villas, and desert hideaways for unforgettable escapes.">
+  <link rel="canonical" href="https://staynomad.example/index.html">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="StayNomad — Sleep Somewhere Unforgettable">
+  <meta property="og:description" content="Browse handcrafted cabins, treehouses, glass domes, floating stays, and desert hideaways with live availability.">
+  <meta property="og:url" content="https://staynomad.example/index.html">
+  <meta property="og:image" content="images/hero-cabin-lake-dusk.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="StayNomad — Sleep Somewhere Unforgettable">
+  <meta name="twitter:description" content="Handcrafted cabins, treehouses, geodesic domes, and off-grid hideaways bathed in golden hour.">
+  <meta name="twitter:image" content="images/hero-cabin-lake-dusk.jpg">
+  <link rel="icon" type="image/svg+xml" href="images/favicon.svg">
+  <link rel="stylesheet" href="css/base.css?v=1.6">
+  <link rel="stylesheet" href="css/components.css?v=1.6">
+  <link rel="stylesheet" href="css/pages.css?v=1.6">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "StayNomad",
+    "slogan": "Sleep somewhere unforgettable.",
+    "url": "https://staynomad.example/",
+    "logo": "https://staynomad.example/images/favicon.svg",
+    "description": "Curated boutique wilderness accommodations including cabins, treehouses, geodesic domes, tiny homes, floating stays, and desert hideaways.",
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "telephone": "+91-1902-294-810",
+      "contactType": "customer service",
+      "availableLanguage": ["English"]
+    }
+  }
+  </script>
+</head>
+<body>
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <!-- Scroll-Linked Trail Progress Bar + Tiny Tent Marker -->
+  <div class="scroll-trail" aria-hidden="true">
+    <div class="scroll-trail-fill" id="scroll-trail-fill"></div>
+  </div>
+  <svg class="scroll-trail-tent" id="scroll-trail-tent" viewBox="0 0 24 20" aria-hidden="true">
+    <polygon points="2,18 12,2 22,18" fill="#0E2420" stroke="#E2733A" stroke-width="2.2" stroke-linejoin="round"/>
+    <polygon points="8,18 12,10 16,18" fill="#F2B25C"/>
+  </svg>
+
+  <!-- Minimal Site Header: Strictly 4 Links -->
+  <header class="site-header">
+    <div class="container nav-inner">
+      <a href="index.html" class="brand-logo" aria-label="StayNomad Home">
+        <svg class="brand-logo-mark" viewBox="0 0 64 64" role="img" aria-hidden="true">
+          <rect width="64" height="64" rx="15" fill="#0E2420"/>
+          <circle cx="32" cy="32" r="24" fill="none" stroke="#C9A98A" stroke-width="1.2" stroke-dasharray="3 3" opacity="0.45"/>
+          <path d="M14 48 L32 14 L50 48" fill="none" stroke="#E2733A" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M21 48 L32 27 L43 48 Z" fill="#17403A" stroke="#E2733A" stroke-width="1.8" stroke-linejoin="round"/>
+          <path d="M18 18 L46 46" stroke="#C9A98A" stroke-width="1.4" stroke-linecap="round" opacity="0.7"/>
+          <polygon points="45,19 34,34 30,30" fill="#F2B25C"/>
+          <polygon points="19,45 30,30 34,34" fill="#E2733A"/>
+          <circle cx="32" cy="32" r="2.8" fill="#F4ECDD"/>
+        </svg>
+        <span class="brand-wordmark">Stay<span>Nomad</span></span>
+      </a>
+
+      <nav aria-label="Primary navigation">
+        <ul class="nav-links">
+          <li><a href="index.html" aria-current="page">Home</a></li>
+          <li><a href="stays.html">Stays</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="nav-actions">
+        <button type="button" class="theme-toggle" data-theme-toggle aria-label="Toggle night-cabin dark mode">
+          <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+          <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="5"/><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/></svg>
+        </button>
+        <a href="booking.html" class="btn btn-primary btn-sm nav-booking-btn" data-magnetic>Book Now</a>
+        <button type="button" class="mobile-menu-toggle" data-mobile-toggle aria-expanded="false" aria-controls="mobile-nav-overlay" aria-label="Toggle menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Full-Screen Menu -->
+  <div class="mobile-nav-overlay" id="mobile-nav-overlay" aria-hidden="true">
+    <ul class="mobile-nav-links">
+      <li><a href="index.html" aria-current="page">Home</a></li>
+      <li><a href="stays.html">Stays</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <div class="mobile-nav-footer">
+      <a href="booking.html" class="btn btn-primary btn-lg" style="width:100%;max-width:340px;">Book Now</a>
+      <p>Sleep somewhere unforgettable.</p>
+    </div>
+  </div>
+
+  <main id="main-content">
+    <!-- 1. Cinematic Hero with Ken-Burns, Embers Canvas & Floating Search Bar -->
+    <section class="hero-home" aria-label="Discover unforgettable wild stays">
+      <div class="hero-media">
+        <picture>
+          <source srcset="images/hero-cabin-lake-dusk.webp" type="image/webp">
+          <img src="images/hero-cabin-lake-dusk.jpg" alt="Glass-front cedar A-frame cabin beside a mirror-still alpine lake at golden hour dusk with warm interior glow" width="1600" height="1000" decoding="async">
+        </picture>
+      </div>
+      <div class="hero-overlay" aria-hidden="true"></div>
+      <canvas id="hero-embers-canvas" aria-hidden="true"></canvas>
+
+      <div class="container hero-content">
+        <div class="hero-copy">
+          <div class="hero-kicker">
+            <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><polygon points="12 2 15 9 22 12 15 15 12 22 9 15 2 12 9 9 12 2"/></svg>
+            <span>12 Architect-Crafted Sanctuaries Across Wild India</span>
+          </div>
+          <h1 class="hero-headline">
+            <span class="line-mask"><span class="line-inner">Sleep somewhere</span></span>
+            <span class="line-mask"><span class="line-inner"><em>unforgettable</em>, bathed</span></span>
+            <span class="line-mask"><span class="line-inner">in golden hour.</span></span>
+          </h1>
+          <p class="hero-subtext">
+            Trade hotel corridors for cedar A-frames, rainforest skybridges, Bortle-2 desert domes, and silent solar float houses where the horizon belongs solely to you.
+          </p>
+        </div>
+
+        <div class="hero-search-shell">
+          <form class="hero-search-form" action="stays.html" method="get" aria-label="Search stay availability">
+            <div class="search-field">
+              <label for="hero-where">Where</label>
+              <input type="text" id="hero-where" name="q" placeholder="Himalayas, Kerala, Thar, Coorg…" autocomplete="off">
+            </div>
+            <div class="search-field">
+              <label for="hero-checkin">Check-in</label>
+              <input type="date" id="hero-checkin" name="checkin">
+            </div>
+            <div class="search-field">
+              <label for="hero-checkout">Check-out</label>
+              <input type="date" id="hero-checkout" name="checkout">
+            </div>
+            <div class="search-field">
+              <label for="hero-guests">Guests</label>
+              <select id="hero-guests" name="guests">
+                <option value="1">1 Guest</option>
+                <option value="2" selected>2 Guests</option>
+                <option value="3">3 Guests</option>
+                <option value="4">4 Guests</option>
+                <option value="5">5+ Guests</option>
+              </select>
+            </div>
+            <div class="hero-search-actions">
+              <button type="submit" class="btn btn-primary" data-magnetic>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+                <span>Explore Stays</span>
+              </button>
+              <button type="button" class="btn btn-surprise" data-surprise-me data-magnetic title="Fly to a random available stay">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polygon points="16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76"/></svg>
+                <span>Surprise Me</span>
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- 2. Category Strip -->
+    <section class="section section-warm" aria-labelledby="categories-heading">
+      <div class="container">
+        <div class="section-header centered" data-reveal>
+          <span class="eyebrow">Curated Typologies</span>
+          <h2 id="categories-heading">Six ways to inhabit the <em>wild</em></h2>
+          <p>Every dwelling is vetted in person for architectural craft, acoustic solitude, and low-footprint off-grid ingenuity.</p>
+        </div>
+        <div class="categories-grid" id="home-categories-grid"></div>
+      </div>
+    </section>
+
+    <!-- 3. Featured Stays -->
+    <section class="section" aria-labelledby="featured-heading">
+      <div class="container">
+        <div class="section-header-split" data-reveal>
+          <div>
+            <span class="eyebrow">Field Editor’s Selection</span>
+            <h2 id="featured-heading">Featured hideaways for <em>unhurried</em> nights</h2>
+            <p style="margin-top:0.75rem;color:var(--text-secondary);">Hand-picked sanctuaries with wood-fired soaking tubs, private skybridges, and live calendar availability.</p>
+          </div>
+          <a href="stays.html" class="btn btn-outline" data-magnetic>
+            <span>Browse all 12 stays</span>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+          </a>
+        </div>
+        <div class="stays-grid" id="home-featured-grid"></div>
+      </div>
+    </section>
+
+    <!-- Curved Section Divider -->
+    <div class="curve-divider" aria-hidden="true">
+      <svg viewBox="0 0 1440 64" preserveAspectRatio="none">
+        <path d="M0,64 L0,28 Q360,0 720,30 T1440,18 L1440,64 Z" fill="#0E2420"/>
+      </svg>
+    </div>
+
+    <!-- 4. How StayNomad Works in 3 Steps -->
+    <section class="section section-dark" aria-labelledby="how-heading">
+      <div class="container">
+        <div class="section-header centered" data-reveal>
+          <span class="eyebrow">Effortless Passage</span>
+          <h2 id="how-heading">How StayNomad <em>works</em></h2>
+          <p>From your first compass click to striking a match beside the cabin stove—no key-counter queues, ever.</p>
+        </div>
+
+        <div class="steps-wrapper">
+          <svg class="steps-route-svg" viewBox="0 0 900 70" fill="none" aria-hidden="true">
+            <path class="steps-route-path" d="M20,40 C220,5 320,65 450,35 C580,5 700,65 880,28" stroke="#F2B25C" stroke-width="2" stroke-linecap="round"/>
+            <circle cx="20" cy="40" r="5" fill="#E2733A"/>
+            <circle cx="450" cy="35" r="5" fill="#F2B25C"/>
+            <circle cx="880" cy="28" r="5" fill="#E2733A"/>
+          </svg>
+
+          <div class="steps-grid">
+            <article class="step-card" data-tilt data-reveal style="--stagger:0">
+              <div class="step-icon-badge" data-tilt-layer="3">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polygon points="16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76"/></svg>
+              </div>
+              <h3 data-tilt-layer="2">Choose Your Biome</h3>
+              <p data-tilt-layer="1">Filter by mountain cabin, rainforest canopy, desert dome, or lagoon villa—with transparent per-night pricing and real weather insights.</p>
+            </article>
+
+            <article class="step-card" data-tilt data-reveal style="--stagger:1">
+              <div class="step-icon-badge" data-tilt-layer="3">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" aria-hidden="true"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+              </div>
+              <h3 data-tilt-layer="2">Lock Live Dates</h3>
+              <p data-tilt-layer="1">Pick open dates straight from our live availability calendar. Receive offline-ready GPS trail notes, packing lists, and host contacts.</p>
+            </article>
+
+            <article class="step-card" data-tilt data-reveal style="--stagger:2">
+              <div class="step-icon-badge" data-tilt-layer="3">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" aria-hidden="true"><path d="M12 2c2.8 4 5.5 7 5.5 11a5.5 5.5 0 0 1-11 0c0-3 1.7-5.6 3.5-7.7.5 2 1.6 2.8 2 2.8 0-2.2.2-4.1 0-6.1z"/></svg>
+              </div>
+              <h3 data-tilt-layer="2">Arrive to Warmth</h3>
+              <p data-tilt-layer="1">Self check-in via brass lockbox or steward greeting. Firewood is stacked, the cedar tub is steaming, and local coffee awaits.</p>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 5. Map-Style Destinations Mosaic -->
+    <section class="section section-dusk" aria-labelledby="mosaic-heading">
+      <div class="container">
+        <div class="section-header-split" data-reveal>
+          <div>
+            <span class="eyebrow">Expedition Atlas</span>
+            <h2 id="mosaic-heading">Five wild corridors on our <em>map</em></h2>
+            <p style="margin-top:0.75rem;color:var(--clay);">Five distinct wilderness corridors, from snow-dusted Spiti gorges down to quiet Konkan coves.</p>
+          </div>
+          <button type="button" class="btn btn-surprise" data-surprise-me data-magnetic>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polygon points="16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76"/></svg>
+            <span>Spin Compass to Random Stay</span>
+          </button>
+        </div>
+
+        <div class="mosaic-stage">
+          <div class="destinations-mosaic" id="home-destinations-mosaic"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 6. Guest Stories -->
+    <section class="section section-warm" aria-labelledby="stories-heading">
+      <div class="container">
+        <div class="section-header centered" data-reveal>
+          <span class="eyebrow">Field Logbooks</span>
+          <h2 id="stories-heading">Notes left in cabin <em>journals</em></h2>
+          <p>Unfiltered reflections from architects, writers, stargazers, and slow travellers who disconnected with us.</p>
+        </div>
+        <div class="stories-grid" id="home-stories-grid"></div>
+      </div>
+    </section>
+
+    <!-- 7. Overlapping Host CTA -->
+    <section class="section" aria-labelledby="host-cta-heading">
+      <div class="container">
+        <div class="editorial-overlap">
+          <div class="editorial-overlap-media image-mask-reveal" data-reveal>
+            <picture>
+              <source srcset="images/host-cta-treehouse-canopy.webp" type="image/webp">
+              <img src="images/host-cta-treehouse-canopy.jpg" alt="Wooden suspension skybridge leading to an elevated cedar treehouse bathed in golden forest sunbeams" width="1100" height="750" loading="lazy" decoding="async">
+            </picture>
+          </div>
+          <div class="editorial-overlap-card" data-tilt data-reveal style="--stagger:1">
+            <span class="eyebrow" data-tilt-layer="2">Steward With Us</span>
+            <h2 id="host-cta-heading" data-tilt-layer="3">Own an extraordinary <em>piece</em> of wilderness?</h2>
+            <p data-tilt-layer="1">We partner with independent land stewards, architects, and conservationists to host respectful travellers while protecting at least 85% of every parcel as wild habitat.</p>
+            <div style="display:flex;flex-wrap:wrap;gap:0.85rem;" data-tilt-layer="2">
+              <a href="contact.html" class="btn btn-primary" data-magnetic>Apply to Host on StayNomad</a>
+              <a href="about.html" class="btn btn-outline">Read Our Pledge</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 8. Stargazing Dome Newsletter -->
+    <section class="section" style="padding-top:0;" aria-labelledby="newsletter-heading">
+      <div class="container">
+        <div class="newsletter-banner" data-reveal>
+          <div class="newsletter-banner-bg">
+            <picture>
+              <source srcset="images/newsletter-stargazing-dome.webp" type="image/webp">
+              <img src="images/newsletter-stargazing-dome.jpg" alt="Transparent geodesic dome glowing softly with amber candlelight under a starry Milky Way desert night sky" width="1400" height="700" loading="lazy" decoding="async">
+            </picture>
+          </div>
+          <span class="eyebrow" style="color:var(--amber);">The New Moon Dispatch</span>
+          <h2 id="newsletter-heading" style="max-width:18ch;margin-inline:auto;">New hideaways &amp; last-minute <em>openings</em>, once a month.</h2>
+          <p style="color:var(--clay);max-width:52ch;margin:0.85rem auto 0;">No spam, no flash-sale clutter—just newly commissioned cabins and dark-sky calendar releases before they open to the public.</p>
+          <form class="newsletter-form" id="newsletter-form" novalidate>
+            <label for="newsletter-email" class="sr-only">Email address</label>
+            <input type="email" id="newsletter-email" placeholder="you@wildhorizon.com" required>
+            <button type="submit" class="btn btn-primary" data-magnetic>Join Dispatch</button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Editorial Site Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="brand-logo">
+            <svg class="brand-logo-mark" viewBox="0 0 64 64" aria-hidden="true">
+              <rect width="64" height="64" rx="15" fill="#17403A"/>
+              <path d="M14 48 L32 14 L50 48" fill="none" stroke="#E2733A" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"/>
+              <polygon points="45,19 34,34 30,30" fill="#F2B25C"/>
+              <polygon points="19,45 30,30 34,34" fill="#E2733A"/>
+            </svg>
+            <span class="brand-wordmark">Stay<span>Nomad</span></span>
+          </a>
+          <p>Sleep somewhere unforgettable. Architect-crafted cabins, treehouses, domes, and floating hideaways across untamed landscapes.</p>
+          <span class="footer-coords">31.63° N, 77.34° E · Field HQ</span>
+          <div class="footer-social-links" aria-label="StayNomad Social Media">
+            <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="Instagram">
+              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+              </svg>
+            </a>
+            <a href="https://x.com" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="X (formerly Twitter)">
+              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
+              </svg>
+            </a>
+            <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="Facebook">
+              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+              </svg>
+            </a>
+            <a href="https://google.com" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="Google">
+              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                <path d="M12.48 10.92v3.28h7.84c-.24 1.84-.853 3.187-1.787 4.133-1.147 1.147-2.933 2.4-6.053 2.4-4.827 0-8.6-3.893-8.6-8.72s3.773-8.72 8.6-8.72c2.6 0 4.507 1.027 5.907 2.347l2.307-2.307C18.747 1.44 16.053 0 12.48 0 5.867 0 .307 5.387.307 12s5.56 12 12.173 12c3.573 0 6.267-1.173 8.373-3.36 2.16-2.16 2.84-5.213 2.84-7.667 0-.76-.053-1.467-.173-2.053H12.48z"/>
+              </svg>
+            </a>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h4>Hideaways</h4>
+          <ul>
+            <li><a href="stays.html?type=cabins">Mountain Cabins</a></li>
+            <li><a href="stays.html?type=treehouses">Canopy Treehouses</a></li>
+            <li><a href="stays.html?type=domes">Stargazing Domes</a></li>
+            <li><a href="stays.html?type=tiny-homes">Off-Grid Tiny Homes</a></li>
+            <li><a href="stays.html?type=floating">Floating &amp; Coast Stays</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Company</h4>
+          <ul>
+            <li><a href="about.html">Our Story &amp; Pledge</a></li>
+            <li><a href="contact.html">Wilderness Concierge</a></li>
+            <li><a href="contact.html#faq">Guest FAQ</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>1% For Wild Corridors</h4>
+          <p style="font-size:var(--text-sm);color:var(--clay);margin-bottom:1rem;">Every night booked funds native deodar reforestation, dark-sky lighting retrofits, and community trail stewards.</p>
+          <a href="stays.html" class="btn btn-primary btn-sm">Find an Open Night</a>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2026 StayNomad Hospitality Pvt. Ltd. Crafted for slow, low-impact travel.</p>
+        <div class="footer-legal-links">
+          <a href="privacy.html">Privacy Policy</a>
+          <a href="contact.html#faq">Cancellation &amp; Rules</a>
+          <a href="sitemap.xml">Sitemap</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Floating Scroll Up / Back to Top Button -->
+  <button type="button" class="scroll-up-btn" id="scroll-up-btn" aria-label="Scroll back to top" title="Back to top" aria-hidden="true">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="18 15 12 9 6 15"></polyline></svg>
+  </button>
+
+  <script src="data/stays.js"></script>
+  <script src="js/tilt.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
+

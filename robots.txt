@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+Disallow: /dashboard.html
+Disallow: /booking.html
+
+Sitemap: https://staynomad.example/sitemap.xml
+

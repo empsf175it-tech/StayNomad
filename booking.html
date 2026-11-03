@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Confirm Your Wilderness Reservation — StayNomad</title>
+  <meta name="description" content="Complete your StayNomad cabin, treehouse, or dome reservation in three simple steps and receive instant trailhead instructions.">
+  <link rel="canonical" href="https://staynomad.example/booking.html">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Confirm Your Wilderness Reservation — StayNomad">
+  <meta property="og:description" content="Review your dates, enter guest details, and lock in your StayNomad sanctuary.">
+  <meta property="og:url" content="https://staynomad.example/booking.html">
+  <meta property="og:image" content="images/hero-cabin-lake-dusk.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Confirm Reservation — StayNomad">
+  <meta name="twitter:description" content="Sleep somewhere unforgettable.">
+  <meta name="twitter:image" content="images/hero-cabin-lake-dusk.jpg">
+  <link rel="icon" type="image/svg+xml" href="images/favicon.svg">
+  <link rel="stylesheet" href="css/base.css?v=1.6">
+  <link rel="stylesheet" href="css/components.css?v=1.6">
+  <link rel="stylesheet" href="css/pages.css?v=1.6">
+</head>
+<body>
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <div class="scroll-trail" aria-hidden="true">
+    <div class="scroll-trail-fill" id="scroll-trail-fill"></div>
+  </div>
+  <svg class="scroll-trail-tent" id="scroll-trail-tent" viewBox="0 0 24 20" aria-hidden="true">
+    <polygon points="2,18 12,2 22,18" fill="#0E2420" stroke="#E2733A" stroke-width="2.2" stroke-linejoin="round"/>
+    <polygon points="8,18 12,10 16,18" fill="#F2B25C"/>
+  </svg>
+
+  <header class="site-header">
+    <div class="container nav-inner">
+      <a href="index.html" class="brand-logo" aria-label="StayNomad Home">
+        <svg class="brand-logo-mark" viewBox="0 0 64 64" aria-hidden="true">
+          <rect width="64" height="64" rx="15" fill="#0E2420"/>
+          <circle cx="32" cy="32" r="24" fill="none" stroke="#C9A98A" stroke-width="1.2" stroke-dasharray="3 3" opacity="0.45"/>
+          <path d="M14 48 L32 14 L50 48" fill="none" stroke="#E2733A" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M21 48 L32 27 L43 48 Z" fill="#17403A" stroke="#E2733A" stroke-width="1.8" stroke-linejoin="round"/>
+          <path d="M18 18 L46 46" stroke="#C9A98A" stroke-width="1.4" stroke-linecap="round" opacity="0.7"/>
+          <polygon points="45,19 34,34 30,30" fill="#F2B25C"/>
+          <polygon points="19,45 30,30 34,34" fill="#E2733A"/>
+          <circle cx="32" cy="32" r="2.8" fill="#F4ECDD"/>
+        </svg>
+        <span class="brand-wordmark">Stay<span>Nomad</span></span>
+      </a>
+
+      <nav aria-label="Primary navigation">
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="stays.html">Stays</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="nav-actions">
+        <button type="button" class="theme-toggle" data-theme-toggle aria-label="Toggle night-cabin dark mode">
+          <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+          <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9"><circle cx="12" cy="12" r="5"/><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/></svg>
+        </button>
+        <a href="booking.html" class="btn btn-primary btn-sm nav-booking-btn" data-magnetic aria-current="page">Book Now</a>
+        <button type="button" class="mobile-menu-toggle" data-mobile-toggle aria-expanded="false" aria-controls="mobile-nav-overlay" aria-label="Toggle menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <div class="mobile-nav-overlay" id="mobile-nav-overlay" aria-hidden="true">
+    <ul class="mobile-nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="stays.html">Stays</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <div class="mobile-nav-footer">
+      <a href="booking.html" class="btn btn-primary btn-lg" style="width:100%;max-width:340px;" aria-current="page">Book Now</a>
+      <p>Sleep somewhere unforgettable.</p>
+    </div>
+  </div>
+
+  <main id="main-content" class="section">
+    <div class="container" id="booking-checkout-root">
+      <div class="section-header centered" style="margin-bottom:2rem;">
+        <span class="eyebrow">Reservation Passage</span>
+        <h1 style="font-size:var(--text-3xl);">Prepare for the <em>wild</em></h1>
+      </div>
+
+      <!-- 3-Step Stepper -->
+      <div class="stepper-bar" role="list" aria-label="Booking progress">
+        <div class="stepper-item is-active" id="step-ind-1" role="listitem">
+          <span class="stepper-num">1</span>
+          <span>Trip Summary</span>
+        </div>
+        <span style="color:var(--border-strong);" aria-hidden="true">──</span>
+        <div class="stepper-item" id="step-ind-2" role="listitem">
+          <span class="stepper-num">2</span>
+          <span>Guest Details</span>
+        </div>
+        <span style="color:var(--border-strong);" aria-hidden="true">──</span>
+        <div class="stepper-item" id="step-ind-3" role="listitem">
+          <span class="stepper-num">3</span>
+          <span>Payment</span>
+        </div>
+      </div>
+
+      <div class="booking-layout">
+        <div>
+          <!-- STEP 1: Trip Summary -->
+          <section class="booking-step-panel is-active" id="step-panel-1" aria-labelledby="s1-title">
+            <h2 id="s1-title" style="font-size:var(--text-2xl);margin-bottom:0.5rem;">1. Confirm Your Dates &amp; Party</h2>
+            <p style="color:var(--text-secondary);font-size:var(--text-sm);margin-bottom:1.5rem;">Verify your check-in and check-out dates below. Free date modifications up to 7 days before arrival.</p>
+
+            <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:1rem;margin-bottom:1.25rem;">
+              <div class="form-group">
+                <label for="checkout-checkin" class="form-label">Check-in Date</label>
+                <input type="date" id="checkout-checkin" class="form-control">
+              </div>
+              <div class="form-group">
+                <label for="checkout-checkout" class="form-label">Check-out Date</label>
+                <input type="date" id="checkout-checkout" class="form-control">
+              </div>
+              <div class="form-group">
+                <label for="checkout-guests" class="form-label">Guests</label>
+                <select id="checkout-guests" class="form-control"></select>
+              </div>
+            </div>
+
+            <div class="form-group" style="margin-bottom:1.25rem;">
+              <label for="checkout-occasion" class="form-label">Trip Note for Your Host (Optional)</label>
+              <textarea id="checkout-occasion" rows="3" class="form-control" placeholder="Celebrating an anniversary, bringing a trail dog, arriving near dusk…"></textarea>
+            </div>
+
+            <p class="form-error" id="step-1-error"></p>
+
+            <div class="booking-step-actions" style="display:flex;justify-content:center;align-items:center;margin-top:1rem;">
+              <button type="button" class="btn btn-primary btn-lg" id="to-step-2-btn" data-magnetic>Continue to Guest Details →</button>
+            </div>
+          </section>
+
+          <!-- STEP 2: Guest Details -->
+          <section class="booking-step-panel" id="step-panel-2" aria-labelledby="s2-title">
+            <h2 id="s2-title" style="font-size:var(--text-2xl);margin-bottom:0.5rem;">2. Primary Explorer Details</h2>
+            <p style="color:var(--text-secondary);font-size:var(--text-sm);margin-bottom:1.5rem;">We send offline GPS coordinates, lockbox codes, and weather briefings here 48 hours prior to check-in.</p>
+
+            <div style="display:grid;gap:1rem;">
+              <div class="form-group">
+                <label for="guest-fullname" class="form-label">Full Name *</label>
+                <input type="text" id="guest-fullname" class="form-control" placeholder="e.g. Aria Sharma" required>
+                <span class="form-error" id="guest-fullname-error"></span>
+              </div>
+
+              <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:1rem;">
+                <div class="form-group">
+                  <label for="guest-email" class="form-label">Email Address *</label>
+                  <input type="email" id="guest-email" class="form-control" placeholder="aria@example.com" required>
+                  <span class="form-error" id="guest-email-error"></span>
+                </div>
+                <div class="form-group">
+                  <label for="guest-phone" class="form-label">Mobile / WhatsApp *</label>
+                  <input type="tel" id="guest-phone" class="form-control" placeholder="+91 98204 51920" required>
+                  <span class="form-error" id="guest-phone-error"></span>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="guest-eta" class="form-label">Estimated Arrival Window</label>
+                <select id="guest-eta" class="form-control">
+                  <option value="14:00 - 16:00">14:00 – 16:00 (Early Golden Hour)</option>
+                  <option value="16:00 - 18:00" selected>16:00 – 18:00 (Before Dusk — Recommended)</option>
+                  <option value="18:00 - 20:00">18:00 – 20:00 (Lantern Escort Requested)</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="booking-step-actions" style="display:flex;flex-wrap:wrap;justify-content:center;align-items:center;gap:1rem;margin-top:1.75rem;">
+              <button type="button" class="btn btn-outline" id="back-to-step-1">← Back</button>
+              <button type="button" class="btn btn-primary btn-lg" id="to-step-3-btn" data-magnetic>Continue to Payment →</button>
+            </div>
+          </section>
+
+          <!-- STEP 3: Mock Payment -->
+          <section class="booking-step-panel" id="step-panel-3" aria-labelledby="s3-title">
+            <h2 id="s3-title" style="font-size:var(--text-2xl);margin-bottom:0.5rem;">3. Secure Reservation (Demo Checkout)</h2>
+            <p style="color:var(--text-secondary);font-size:var(--text-sm);margin-bottom:1.5rem;">Demo mode: enter any 16-digit card number to generate an instant confirmed booking.</p>
+
+            <form id="booking-payment-form" novalidate style="display:grid;gap:1rem;">
+              <div class="form-group">
+                <label for="pay-card-name" class="form-label">Name on Card *</label>
+                <input type="text" id="pay-card-name" class="form-control" placeholder="ARIA SHARMA" required>
+                <span class="form-error" id="pay-card-name-error"></span>
+              </div>
+
+              <div class="form-group">
+                <label for="pay-card-number" class="form-label">Card Number (16 Digits) *</label>
+                <input type="text" id="pay-card-number" class="form-control" inputmode="numeric" placeholder="4532 8910 4421 8890" maxlength="19" required>
+                <span class="form-error" id="pay-card-number-error"></span>
+              </div>
+
+              <div style="display:grid;grid-template-columns:1fr 1fr;gap:1rem;">
+                <div class="form-group">
+                  <label for="pay-card-expiry" class="form-label">Expiry (MM/YY) *</label>
+                  <input type="text" id="pay-card-expiry" class="form-control" placeholder="09/29" maxlength="5" required>
+                  <span class="form-error" id="pay-card-expiry-error"></span>
+                </div>
+                <div class="form-group">
+                  <label for="pay-card-cvc" class="form-label">Security Code (CVC) *</label>
+                  <input type="text" id="pay-card-cvc" class="form-control" inputmode="numeric" placeholder="418" maxlength="4" required>
+                  <span class="form-error" id="pay-card-cvc-error"></span>
+                </div>
+              </div>
+
+              <div>
+                <label class="check-label" style="font-size:var(--text-sm);">
+                  <input type="checkbox" id="pay-agree" checked>
+                  <span>I agree to the StayNomad Wilderness Etiquette, Leave-No-Trace house rules, and 7-day flexible cancellation terms.</span>
+                </label>
+                <span class="form-error" id="pay-agree-error"></span>
+              </div>
+
+              <div class="booking-step-actions" style="display:flex;flex-wrap:wrap;justify-content:center;align-items:center;gap:1rem;margin-top:1.25rem;">
+                <button type="button" class="btn btn-outline" id="back-to-step-2">← Back</button>
+                <button type="submit" class="btn btn-primary btn-lg" data-magnetic>Complete Reservation</button>
+              </div>
+            </form>
+          </section>
+
+          <!-- STEP 4: Confirmation -->
+          <section class="booking-step-panel" id="step-panel-4" aria-labelledby="s4-title">
+            <div class="confirmation-ticket" data-tilt>
+              <span class="eyebrow" data-tilt-layer="2">Sanctuary Reserved</span>
+              <h2 id="s4-title" style="font-size:var(--text-2xl);" data-tilt-layer="3">Your cabin light will be <em>waiting</em></h2>
+              <div class="booking-id-pill" id="confirmed-booking-id" data-tilt-layer="3">SN-000000</div>
+              <p id="confirmed-details-copy" style="color:var(--text-secondary);max-width:54ch;margin-inline:auto;" data-tilt-layer="1"></p>
+              <div style="display:flex;flex-wrap:wrap;justify-content:center;gap:0.85rem;margin-top:2rem;" data-tilt-layer="2">
+                <a href="stays.html" class="btn btn-primary">Explore More Stays</a>
+              </div>
+            </div>
+          </section>
+        </div>
+
+        <!-- Sticky Stay Summary Card -->
+        <aside class="booking-sidebar-card" id="checkout-stay-summary" data-tilt aria-label="Selected stay summary"></aside>
+      </div>
+    </div>
+  </main>
+
+  <!-- Floating Scroll Up / Back to Top Button -->
+  <button type="button" class="scroll-up-btn" id="scroll-up-btn" aria-label="Scroll back to top" title="Back to top" aria-hidden="true">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="18 15 12 9 6 15"></polyline></svg>
+  </button>
+
+  <script src="data/stays.js"></script>
+  <script src="js/tilt.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/booking.js"></script>
+</body>
+</html>
+

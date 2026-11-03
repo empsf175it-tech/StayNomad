@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Browse Wild Stays, Cabins &amp; Treehouses — StayNomad</title>
+  <meta name="description" content="Filter 12 architect-crafted cabins, canopy treehouses, geodesic stargazing domes, tiny homes, floating stays, and desert hideaways by price, amenities, and live availability.">
+  <link rel="canonical" href="https://staynomad.example/stays.html">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Browse Wild Stays, Cabins &amp; Treehouses — StayNomad">
+  <meta property="og:description" content="Explore hand-picked off-grid cabins, treehouses, geodesic domes, and floating villas across wild India.">
+  <meta property="og:url" content="https://staynomad.example/stays.html">
+  <meta property="og:image" content="images/stay-01-cover.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Browse Wild Stays — StayNomad">
+  <meta name="twitter:description" content="Filter cabins, domes, treehouses, and floating stays with live availability.">
+  <meta name="twitter:image" content="images/stay-01-cover.jpg">
+  <link rel="icon" type="image/svg+xml" href="images/favicon.svg">
+  <link rel="stylesheet" href="css/base.css?v=1.6">
+  <link rel="stylesheet" href="css/components.css?v=1.6">
+  <link rel="stylesheet" href="css/pages.css?v=1.6">
+</head>
+<body>
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <div class="scroll-trail" aria-hidden="true">
+    <div class="scroll-trail-fill" id="scroll-trail-fill"></div>
+  </div>
+  <svg class="scroll-trail-tent" id="scroll-trail-tent" viewBox="0 0 24 20" aria-hidden="true">
+    <polygon points="2,18 12,2 22,18" fill="#0E2420" stroke="#E2733A" stroke-width="2.2" stroke-linejoin="round"/>
+    <polygon points="8,18 12,10 16,18" fill="#F2B25C"/>
+  </svg>
+
+  <header class="site-header">
+    <div class="container nav-inner">
+      <a href="index.html" class="brand-logo" aria-label="StayNomad Home">
+        <svg class="brand-logo-mark" viewBox="0 0 64 64" aria-hidden="true">
+          <rect width="64" height="64" rx="15" fill="#0E2420"/>
+          <circle cx="32" cy="32" r="24" fill="none" stroke="#C9A98A" stroke-width="1.2" stroke-dasharray="3 3" opacity="0.45"/>
+          <path d="M14 48 L32 14 L50 48" fill="none" stroke="#E2733A" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M21 48 L32 27 L43 48 Z" fill="#17403A" stroke="#E2733A" stroke-width="1.8" stroke-linejoin="round"/>
+          <path d="M18 18 L46 46" stroke="#C9A98A" stroke-width="1.4" stroke-linecap="round" opacity="0.7"/>
+          <polygon points="45,19 34,34 30,30" fill="#F2B25C"/>
+          <polygon points="19,45 30,30 34,34" fill="#E2733A"/>
+          <circle cx="32" cy="32" r="2.8" fill="#F4ECDD"/>
+        </svg>
+        <span class="brand-wordmark">Stay<span>Nomad</span></span>
+      </a>
+
+      <nav aria-label="Primary navigation">
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="stays.html" aria-current="page">Stays</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="nav-actions">
+        <button type="button" class="theme-toggle" data-theme-toggle aria-label="Toggle night-cabin dark mode">
+          <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+          <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9"><circle cx="12" cy="12" r="5"/><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/></svg>
+        </button>
+        <a href="booking.html" class="btn btn-primary btn-sm nav-booking-btn" data-magnetic>Book Now</a>
+        <button type="button" class="mobile-menu-toggle" data-mobile-toggle aria-expanded="false" aria-controls="mobile-nav-overlay" aria-label="Toggle menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <div class="mobile-nav-overlay" id="mobile-nav-overlay" aria-hidden="true">
+    <ul class="mobile-nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="stays.html" aria-current="page">Stays</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <div class="mobile-nav-footer">
+      <a href="booking.html" class="btn btn-primary btn-lg" style="width:100%;max-width:340px;">Book Now</a>
+      <p>Sleep somewhere unforgettable.</p>
+    </div>
+  </div>
+
+  <main id="main-content">
+    <section class="page-hero-compact">
+      <div class="container">
+        <div class="stays-hero-header">
+          <span class="eyebrow">The Complete Collection</span>
+          <h1 style="font-size:var(--text-3xl);">Unusual stays for <em>quiet</em> horizons</h1>
+        </div>
+        <div class="stays-hero-subbar">
+          <p>Twelve singular cabins, canopy treehouses, geodesic domes, tiny homes, and water sanctuaries—each vetted for craft and solitude.</p>
+          <div class="stays-hero-actions">
+            <button type="button" class="btn btn-surprise btn-sm" data-surprise-me data-magnetic>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9"><circle cx="12" cy="12" r="10"/><polygon points="16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76"/></svg>
+              <span>Surprise Me</span>
+            </button>
+            <button type="button" class="btn btn-outline btn-sm" id="share-filters-btn" style="color:var(--sand);border-color:rgba(201,169,138,0.45);">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/></svg>
+              <span>Copy Filter Link</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" style="padding-top:2.5rem;">
+      <div class="container stays-layout">
+        <!-- Mobile Backdrop -->
+        <div class="filter-drawer-backdrop" id="filter-drawer-backdrop"></div>
+
+        <!-- Sticky / Slide-over Filter Panel -->
+        <aside class="filter-panel" id="stays-filter-panel" aria-label="Filter stays">
+          <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:0.85rem;">
+            <h2 style="font-size:1.25rem;">Refine Stays</h2>
+            <div style="display:flex;align-items:center;gap:0.65rem;">
+              <button type="button" data-reset-filters style="font-size:var(--text-xs);font-weight:700;color:var(--ember);">Reset</button>
+              <button type="button" class="mobile-filter-trigger" id="close-filter-drawer" aria-label="Close filter drawer" style="font-size:1.2rem;padding:0.25rem;">✕</button>
+            </div>
+          </div>
+
+          <div class="filter-group">
+            <label for="filter-search" class="filter-group-title">Search Keyword</label>
+            <input type="search" id="filter-search" class="form-control" placeholder="Try A-frame, Spiti, sauna…">
+          </div>
+
+          <div class="filter-group">
+            <label for="filter-region" class="filter-group-title">Wilderness Corridor</label>
+            <select id="filter-region" class="form-control">
+              <option value="">All 5 Regions</option>
+              <option value="Himalayan Foothills">Himalayan Foothills</option>
+              <option value="Western Ghats & Kerala">Western Ghats &amp; Kerala</option>
+              <option value="Rajasthan & Thar Dunes">Rajasthan &amp; Thar Dunes</option>
+              <option value="Konkan & Goa Coast">Konkan &amp; Goa Coast</option>
+              <option value="Spiti High Valleys">Spiti High Valleys</option>
+            </select>
+          </div>
+
+          <div class="filter-group">
+            <span class="filter-group-title">Property Type</span>
+            <div class="filter-pills" role="group" aria-label="Property type">
+              <button type="button" class="filter-pill is-active" data-filter-type="all" aria-pressed="true">All</button>
+              <button type="button" class="filter-pill" data-filter-type="cabins" aria-pressed="false">Cabins</button>
+              <button type="button" class="filter-pill" data-filter-type="treehouses" aria-pressed="false">Treehouses</button>
+              <button type="button" class="filter-pill" data-filter-type="domes" aria-pressed="false">Domes</button>
+              <button type="button" class="filter-pill" data-filter-type="tiny-homes" aria-pressed="false">Tiny Homes</button>
+              <button type="button" class="filter-pill" data-filter-type="floating" aria-pressed="false">Floating</button>
+              <button type="button" class="filter-pill" data-filter-type="desert" aria-pressed="false">Desert</button>
+            </div>
+          </div>
+
+          <div class="filter-group">
+            <label for="filter-max-price" class="filter-group-title">
+              <span>Max Nightly Rate</span>
+              <strong id="filter-max-price-val" style="color:var(--ember);">$420</strong>
+            </label>
+            <input type="range" id="filter-max-price" class="range-slider" min="185" max="420" step="5" value="420">
+            <div style="display:flex;justify-content:space-between;font-size:0.72rem;color:var(--text-muted);margin-top:0.25rem;">
+              <span>$185</span>
+              <span>$420+</span>
+            </div>
+          </div>
+
+          <div class="filter-group" style="display:grid;grid-template-columns:1fr 1fr;gap:0.75rem;">
+            <div>
+              <label for="filter-guests" class="filter-group-title">Guests</label>
+              <select id="filter-guests" class="form-control" style="padding:0.6rem 0.7rem;">
+                <option value="1">1+ Guest</option>
+                <option value="2">2+ Guests</option>
+                <option value="3">3+ Guests</option>
+                <option value="4">4+ Guests</option>
+                <option value="5">5+ Guests</option>
+              </select>
+            </div>
+            <div>
+              <label for="filter-bedrooms" class="filter-group-title">Bedrooms</label>
+              <select id="filter-bedrooms" class="form-control" style="padding:0.6rem 0.7rem;">
+                <option value="0">Any</option>
+                <option value="1">1+</option>
+                <option value="2">2+</option>
+                <option value="3">3+</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="filter-group">
+            <span class="filter-group-title">Amenities</span>
+            <div class="amenity-check-list">
+              <label class="check-label"><input type="checkbox" data-filter-amenity="Hot tub"> Hot tub</label>
+              <label class="check-label"><input type="checkbox" data-filter-amenity="Fireplace"> Fireplace</label>
+              <label class="check-label"><input type="checkbox" data-filter-amenity="Wi-Fi"> Wi-Fi</label>
+              <label class="check-label"><input type="checkbox" data-filter-amenity="Pet-friendly"> Pet-friendly</label>
+              <label class="check-label"><input type="checkbox" data-filter-amenity="Lake view"> Lake view</label>
+              <label class="check-label"><input type="checkbox" data-filter-amenity="Off-grid"> Off-grid</label>
+              <label class="check-label"><input type="checkbox" data-filter-amenity="Sauna"> Sauna</label>
+              <label class="check-label"><input type="checkbox" data-filter-amenity="EV charger"> EV charger</label>
+            </div>
+          </div>
+
+          <div class="filter-group">
+            <label class="toggle-row" for="filter-instant">
+              <div>
+                <div style="font-size:var(--text-sm);font-weight:700;">Instant Book</div>
+                <div style="font-size:0.73rem;color:var(--text-muted);">Reserve immediately without host wait</div>
+              </div>
+              <input type="checkbox" id="filter-instant" class="switch-input">
+            </label>
+          </div>
+        </aside>
+
+        <!-- Results Column -->
+        <div>
+          <div class="stays-toolbar">
+            <div style="display:flex;align-items:center;gap:0.85rem;">
+              <button type="button" class="btn btn-secondary btn-sm mobile-filter-trigger" id="open-filter-drawer">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="4" y1="21" x2="4" y2="14"/><line x1="4" y1="10" x2="4" y2="3"/><line x1="12" y1="21" x2="12" y2="12"/><line x1="12" y1="8" x2="12" y2="3"/><line x1="20" y1="21" x2="20" y2="16"/><line x1="20" y1="12" x2="20" y2="3"/></svg>
+                <span>Filters</span>
+              </button>
+              <p id="stays-result-count" style="font-size:var(--text-sm);color:var(--text-secondary);">Showing <strong>12</strong> of 12 wilderness stays</p>
+            </div>
+
+            <div class="stays-toolbar-controls">
+              <label for="filter-sort" class="sr-only">Sort stays</label>
+              <select id="filter-sort" class="form-control" style="width:auto;padding:0.5rem 0.9rem;font-size:var(--text-xs);font-weight:700;">
+                <option value="featured">Sort: Featured</option>
+                <option value="price-asc">Price: Low to High</option>
+                <option value="price-desc">Price: High to Low</option>
+                <option value="rating">Highest Rated</option>
+                <option value="newest">Newest Additions</option>
+              </select>
+
+              <div class="view-toggle-group" role="group" aria-label="View layout">
+                <button type="button" class="view-toggle-btn is-active" data-view-mode="grid" aria-pressed="true" aria-label="Grid view">
+                  <svg viewBox="0 0 24 24" width="17" height="17" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/></svg>
+                </button>
+                <button type="button" class="view-toggle-btn" data-view-mode="list" aria-pressed="false" aria-label="List view">
+                  <svg viewBox="0 0 24 24" width="17" height="17" fill="none" stroke="currentColor" stroke-width="2"><line x1="8" y1="6" x2="21" y2="6"/><line x1="8" y1="12" x2="21" y2="12"/><line x1="8" y1="18" x2="21" y2="18"/><line x1="3" y1="6" x2="3.01" y2="6"/><line x1="3" y1="12" x2="3.01" y2="12"/><line x1="3" y1="18" x2="3.01" y2="18"/></svg>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="stays-grid" id="stays-results-grid" aria-live="polite"></div>
+
+          <div class="empty-state-box" id="stays-empty-state" hidden>
+            <svg viewBox="0 0 48 48" width="48" height="48" fill="none" stroke="var(--ember)" stroke-width="2" aria-hidden="true">
+              <circle cx="24" cy="24" r="20"/><polygon points="31 17 26 26 17 31 22 22 31 17"/>
+            </svg>
+            <h3>No hideaways match that exact combination</h3>
+            <p style="color:var(--text-secondary);max-width:44ch;">Try widening your nightly price slider or clearing an amenity filter to uncover open cabins nearby.</p>
+            <button type="button" class="btn btn-primary" data-reset-filters>Reset All Filters</button>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="brand-logo">
+            <svg class="brand-logo-mark" viewBox="0 0 64 64" aria-hidden="true">
+              <rect width="64" height="64" rx="15" fill="#17403A"/>
+              <path d="M14 48 L32 14 L50 48" fill="none" stroke="#E2733A" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"/>
+              <polygon points="45,19 34,34 30,30" fill="#F2B25C"/>
+              <polygon points="19,45 30,30 34,34" fill="#E2733A"/>
+            </svg>
+            <span class="brand-wordmark">Stay<span>Nomad</span></span>
+          </a>
+          <p>Sleep somewhere unforgettable. Architect-crafted cabins, treehouses, domes, and floating hideaways across untamed landscapes.</p>
+          <span class="footer-coords">31.63° N, 77.34° E · Field HQ</span>
+          <div class="footer-social-links" aria-label="StayNomad Social Media">
+            <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="Instagram">
+              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+              </svg>
+            </a>
+            <a href="https://x.com" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="X (formerly Twitter)">
+              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
+              </svg>
+            </a>
+            <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="Facebook">
+              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+              </svg>
+            </a>
+            <a href="https://google.com" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="Google">
+              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                <path d="M12.48 10.92v3.28h7.84c-.24 1.84-.853 3.187-1.787 4.133-1.147 1.147-2.933 2.4-6.053 2.4-4.827 0-8.6-3.893-8.6-8.72s3.773-8.72 8.6-8.72c2.6 0 4.507 1.027 5.907 2.347l2.307-2.307C18.747 1.44 16.053 0 12.48 0 5.867 0 .307 5.387.307 12s5.56 12 12.173 12c3.573 0 6.267-1.173 8.373-3.36 2.16-2.16 2.84-5.213 2.84-7.667 0-.76-.053-1.467-.173-2.053H12.48z"/>
+              </svg>
+            </a>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h4>Hideaways</h4>
+          <ul>
+            <li><a href="stays.html?type=cabins">Mountain Cabins</a></li>
+            <li><a href="stays.html?type=treehouses">Canopy Treehouses</a></li>
+            <li><a href="stays.html?type=domes">Stargazing Domes</a></li>
+            <li><a href="stays.html?type=tiny-homes">Off-Grid Tiny Homes</a></li>
+            <li><a href="stays.html?type=floating">Floating &amp; Coast Stays</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Company</h4>
+          <ul>
+            <li><a href="about.html">Our Story &amp; Pledge</a></li>
+            <li><a href="contact.html">Wilderness Concierge</a></li>
+            <li><a href="contact.html#faq">Guest FAQ</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>1% For Wild Corridors</h4>
+          <p style="font-size:var(--text-sm);color:var(--clay);margin-bottom:1rem;">Every night booked funds native deodar reforestation, dark-sky lighting retrofits, and community trail stewards.</p>
+          <a href="contact.html" class="btn btn-primary btn-sm">Ask Our Concierge</a>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2026 StayNomad Hospitality Pvt. Ltd. Crafted for slow, low-impact travel.</p>
+        <div class="footer-legal-links">
+          <a href="privacy.html">Privacy Policy</a>
+          <a href="contact.html#faq">Cancellation &amp; Rules</a>
+          <a href="sitemap.xml">Sitemap</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Floating Scroll Up / Back to Top Button -->
+  <button type="button" class="scroll-up-btn" id="scroll-up-btn" aria-label="Scroll back to top" title="Back to top" aria-hidden="true">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="18 15 12 9 6 15"></polyline></svg>
+  </button>
+
+  <script src="data/stays.js"></script>
+  <script src="js/tilt.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/stays-filter.js"></script>
+</body>
+</html>
+
